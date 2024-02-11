@@ -3,18 +3,21 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 22.5vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite .0002s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("asserts/PoInTYo_.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
