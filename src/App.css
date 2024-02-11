@@ -13,6 +13,13 @@
   }
 }
 
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  .App-logo {
+    height: 35vmin;
+    pointer-events: none;
+  }
+}
+
 .App-header {
   background-image: url("asserts/PoInTYo_.jpeg");
   background-size: cover;
